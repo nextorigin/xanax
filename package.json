@@ -1,0 +1,38 @@
+{
+  "name": "xanax",
+  "version": "0.9.1",
+  "description": "ExpressJS REST adapter for Spine models",
+  "main": "lib/xanax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/iced-coffee-script/bin/coffee --bare --map --runtime node -o lib/ -c src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doublerebel/xanax.git"
+  },
+  "keywords": [
+    "spine",
+    "spinejs",
+    "rest",
+    "adapter",
+    "crud",
+    "express",
+    "activerecord",
+    "rails",
+    "orm"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doublerebel/xanax/issues"
+  },
+  "homepage": "https://github.com/doublerebel/xanax#readme",
+  "dependencies": {
+    "errify": "^1.0.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.9"
+  }
+}
