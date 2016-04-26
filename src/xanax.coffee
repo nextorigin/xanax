@@ -49,7 +49,7 @@ class Xanax
     ideally = errify next
     {query} = req
     key = value = null
-    do -> return delete query[key] for key, value of query when key in @Model.attributes
+    do => return delete query[key] for key, value of query when key in @Model.attributes
     if key
       await @Model.findAllByAttribute key, value, query, ideally defer records
     else
