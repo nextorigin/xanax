@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doublerebel/xanax.git"
+    "url": "git://github.com/nextorigin/xanax.git"
   },
   "keywords": [
     "spine",
@@ -26,9 +26,9 @@
   "author": "doublerebel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doublerebel/xanax/issues"
+    "url": "https://github.com/nextorigin/xanax/issues"
   },
-  "homepage": "https://github.com/doublerebel/xanax#readme",
+  "homepage": "https://github.com/nextorigin/xanax#readme",
   "dependencies": {
     "errify": "^1.0.0",
     "express": "^4.13.4"
