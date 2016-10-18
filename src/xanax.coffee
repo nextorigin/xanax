@@ -38,7 +38,7 @@ class Xanax
     if records.length is 1 and path isnt @paths.index
       [record] = records
       response = record.attributes()
-    else
+    else if records.length
       response = (record.attributes() for record in records)
 
     @render res, path, response
